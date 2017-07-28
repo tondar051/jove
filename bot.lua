@@ -1286,3 +1286,6 @@ end
     }, dl_cb, nil)
   end
 end
+if msg.content_.text_:match('^😐$') then
+tdcli.sendText(msg.chat_id_, msg.id_, 0, 0, 1, '😐', nil)
+end
